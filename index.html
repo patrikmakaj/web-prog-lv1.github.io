@@ -1,12 +1,497 @@
 <!DOCTYPE html>
-<html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+  <head>
+    <title>Patrik Makaj - LV1 - Web Programiranje</title>
+    <meta name="description" content="Ovo je web stranica koja je izrađena kao prva laboratorijska vježba na predmetu Web Programiranje.">
+    <meta name="keywords" content="web, programiranje, ferit, labos, laboratorijska, vježba, zadaća, student, html, css, js">
+    <meta charset="utf-8" />
+    <meta name="language" content="hr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
-</head>
-<body>
-    <h1><?= "Hello LV1 task" ?></h1>
-</body>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div id="home" class="landing-page">
+      <div class="footer">
+        <div class="content">
+          <img class="frame-icon" alt="Logo stranice" src="img/Logo.png" role="img" loading="lazy" />
+
+          <div class="links">
+            <a class="home" href="#home" aria-label="link" role="link">Home</a>
+            <a class="home" href="#portfolio" aria-label="link" role="link">Portfolio</a>
+            <a class="home" href="#about" aria-label="link" role="link">About me</a>
+            <a class="home" href="#contact" aria-label="link" role="link">Contact</a>
+            <a class="home" href="#testimonials" aria-label="link" role="link">Testimonials</a>
+          </div>
+          <div class="social-links">
+            <img class="facebook-icon" alt="Logo Facebooka" src="img/Facebook.png" role="img" loading="lazy"/>
+
+            <img class="facebook-icon" alt="Logo Instagrama" src="img/Instagram.png" role="img" loading="lazy"/>
+
+            <img class="facebook-icon" alt="Logo Twittera" src="img/Twitter.png" role="img" loading="lazy"/>
+
+            <img class="facebook-icon" alt="Logo LinkedIna" src="img/LinkedIn.png" role="img" loading="lazy"/>
+          </div>
+        </div>
+        <div class="credits">
+          <div class="divider"></div>
+          <div class="row">
+            <div class="home">
+              <a class="airdokan" href="https://airdokan.com/" target="_blank"
+                >Made with 💖 by Airdokan</a
+              >
+            </div>
+            <div class="footer-links">
+              <div class="home">Privacy Policy</div>
+              <div class="home">Terms of Service</div>
+              <div class="home">Cookies Settings</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact1">
+        <div class="section-title">
+          <div class="get-in-touch">Get In Touch</div>
+          <div class="content1">
+            <b class="contact-us">Contact me</b>
+            <div class="lorem-ipsum-dolor">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div class="inputs">
+            <div class="input">
+              <div class="first-name">First name</div>
+              <div class="input1"></div>
+            </div>
+            <div class="input">
+              <div class="first-name">Last name</div>
+              <div class="input1"></div>
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="input">
+              <div class="first-name">Email</div>
+              <div class="input1"></div>
+            </div>
+            <div class="input">
+              <div class="first-name">Phone number</div>
+              <div class="input1"></div>
+            </div>
+          </div>
+          <div class="title">
+            <div class="first-name">Choose a topic</div>
+            <div class="input9">
+              <div class="select-one">Select one...</div>
+              <img class="icon" alt="Ikona osobe" src="img/Social icon.png" role="img" loading="lazy"/>
+            </div>
+          </div>
+          <div class="radios">
+            <div class="home">Which best describes you?</div>
+            <div class="content2">
+              <div class="column">
+                <div class="radio-button">
+                  <div class="radio"></div>
+                  <div class="select-one">First choice</div>
+                </div>
+                <div class="radio-button">
+                  <div class="radio"></div>
+                  <div class="select-one">Third choice</div>
+                </div>
+                <div class="radio-button">
+                  <div class="radio"></div>
+                  <div class="select-one">Fifth choice</div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="radio-button">
+                  <div class="radio"></div>
+                  <div class="select-one">Second choice</div>
+                </div>
+                <div class="radio-button">
+                  <div class="radio"></div>
+                  <div class="select-one">Fourth choice</div>
+                </div>
+                <div class="radio-button">
+                  <div class="radio"></div>
+                  <div class="select-one">Other</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="title">
+            <div class="first-name">Message</div>
+            <div class="input11">
+              <div class="select-one">Type your message...</div>
+            </div>
+          </div>
+          <div class="checkbox-button">
+            <div class="checkbox"></div>
+            <div class="home">I accept the terms</div>
+          </div>
+          <div class="button">
+            <div class="home">Submit</div>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" class="blog">
+        <div class="row">
+          <div class="section-title1">
+            <div class="get-in-touch">Recent Projects</div>
+            <div class="content3">
+              <b class="contact-us">My Portfolio</b>
+            </div>
+          </div>
+          <div class="social-button">
+            <img class="social-icon" alt="Ikona osobe" src="img/Social icon.png" role="img" loading="lazy"/>
+
+            <div class="home">Visit My Dribbble</div>
+          </div>
+        </div>
+        <div class="content4">
+          <div class="content5">
+            <div class="row1">
+              <div class="card">
+                <img
+                  class="placeholder-image"
+                  alt="Snimka zaslona web stranice"
+                  src="img/Placeholder / Image.png"
+                  loading="lazy"
+                  role="img" 
+                />
+
+                <div class="content6">
+                  <div class="content7">
+                    <div class="title">
+                      <b class="blog-title-heading">Ahuse</b>
+                      <div class="lorem-ipsum-dolor1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="avatar">
+                    <div class="content8">
+                      <div class="get-in-touch">View In Dribbble</div>
+                      <img
+                        class="vector-icon"
+                        alt="Vektor pokazuje gore desno"
+                        src="img/vector.png"
+                        loading="lazy"
+                        role="img" 
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card1">
+                <img
+                  class="placeholder-image"
+                  alt="Vektor pokazuje gore desno"
+                  src="img/Placeholder / Image-1.png"
+                  loading="lazy"
+                  role="img" 
+                />
+
+                <div class="content6">
+                  <div class="content7">
+                    <div class="title">
+                      <b class="blog-title-heading">App Dashboard</b>
+                      <div class="lorem-ipsum-dolor1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="avatar">
+                    <div class="content8">
+                      <div class="get-in-touch">View In Dribbble</div>
+                      <img
+                        class="vector-icon"
+                        alt="Vektor pokazuje gore desno"
+                        src="img/vector.png"
+                        loading="lazy"
+                        role="img" 
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card2">
+                <img
+                  class="placeholder-image"
+                  alt="Snimka zaslona web stranice"
+                  src="img/Placeholder / Image-2.png"
+                  loading="lazy"
+                  role="img" 
+                />
+
+                <div class="content6">
+                  <div class="content7">
+                    <div class="title">
+                      <b class="blog-title-heading">Easy Rent</b>
+                      <div class="lorem-ipsum-dolor1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="avatar">
+                    <div class="content8">
+                      <div class="get-in-touch">View In Dribbble</div>
+                      <img
+                        class="vector-icon"
+                        alt="Slika vektora pokazuje gore desno"
+                        src="img/vector.png"
+                        loading="lazy"
+                        role="img" 
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="testimonials" class="testimonial">
+        <div class="section-title2">
+          <div class="clients-feedback">Clients Feedback</div>
+          <b class="customer-testimonials">Customer testimonials</b>
+        </div>
+        <div class="content15">
+          <div class="column2">
+            <div class="stars">
+              <img class="vector-icon3" alt="5 zvjezdica" src="img/Stars.png" role="img" loading="lazy"/>
+            </div>
+            <div class="first-name">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </div>
+            <div class="avatar3">
+              <img
+                class="avatar-image-icon"
+                alt="Profilna slika osobe"
+                src="img/Avatar Image-1.png"
+                loading="lazy"
+                role="img" 
+              />
+
+              <div class="avatar-content">
+                <div class="get-in-touch">Dianne Russell</div>
+                <div class="starbucks">Starbucks</div>
+              </div>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="stars">
+              <img class="vector-icon3" alt="5 zvjezdica" src="img/Stars.png" role="img" loading="lazy"/>
+            </div>
+            <div class="first-name">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </div>
+            <div class="avatar3">
+              <img
+                class="avatar-image-icon"
+                alt="Profilna slika osobe"
+                src="img/Avatar Image-2.png"
+                loading="lazy"
+                role="img" 
+              />
+
+              <div class="avatar-content">
+                <div class="get-in-touch">Kristin Watson</div>
+                <div class="starbucks">Louis Vuitton</div>
+              </div>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="stars">
+              <img class="vector-icon3" alt="5 zvjezdica" src="img/Stars.png" role="img" loading="lazy"/>
+            </div>
+            <div class="first-name">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </div>
+            <div class="avatar3">
+              <img
+                class="avatar-image-icon"
+                alt="Profilna slika osobe"
+                src="img/Avatar Image.png"
+                loading="lazy"
+                role="img"
+              />
+
+              <div class="avatar-content">
+                <div class="get-in-touch">Kathryn Murphy</div>
+                <div class="starbucks">McDonald's</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="about">
+        <img class="about-me-icon" alt="Profilna slika" src="img/About Me.png" role="img" loading="lazy"/>
+
+        <div class="frame-parent">
+          <div class="about-parent">
+            <div class="get-in-touch">About</div>
+            <b class="about-me1">About Me</b>
+          </div>
+          <div class="lorem-ipsum-dolor-container">
+            <p class="blank-line">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              varius faucibus massa sollicitudin amet augue. Nibh metus a semper
+              purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
+              scelerisque ac adipiscing velit non nulla in amet pellentesque.
+            </p>
+            <p class="blank-line">&nbsp;</p>
+            <p class="blank-line">
+              Sit turpis pretium eget maecenas. Vestibulum dolor mattis
+              consectetur eget commodo vitae. Amet pellentesque sit pulvinar
+              lorem mi a, euismod risus r.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="my-skill">
+        <div class="section-title3">
+          <div class="get-in-touch">My Skills</div>
+          <div class="content16">
+            <b id="contact" class="contact-us">My Expertise</b>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="content17">
+            <div class="section-title4">
+              <div class="strategy-direction">
+                <img
+                  class="product-chain-1-icon"
+                  alt="Lanac proizvoda ikonica"
+                  src="img/product-chain 1.png"
+                  loading="lazy"
+                  role="img"
+                />
+              </div>
+              <div class="section-title2">
+                <b class="blog-title-heading">Strategy & Direction</b>
+                <div class="lorem-ipsum-dolor8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content19">
+            <div class="section-title2">
+              <div class="strategy-direction">
+                <img
+                  class="product-chain-1-icon"
+                  alt="Oznaka ikonica"
+                  src="img/tag 1.png"
+                  loading="lazy"
+                  role="img"
+                />
+              </div>
+              <div class="section-title4">
+                <b class="blog-title-heading">Branding & Logo</b>
+                <div class="lorem-ipsum-dolor9">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content19">
+            <div class="section-title2">
+              <div class="strategy-direction">
+                <img
+                  class="product-chain-1-icon"
+                  alt="Ikonica pera"
+                  src="img/feather-pen 1.png"
+                  loading="lazy"
+                  role="img"
+                />
+              </div>
+              <div class="section-title4">
+                <b class="blog-title-heading">UI & UX Design</b>
+                <div class="lorem-ipsum-dolor9">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content19">
+            <div class="section-title2">
+              <div class="strategy-direction">
+                <img
+                  class="product-chain-1-icon"
+                  alt="Ikonica pera"
+                  src="img/feather-pen 1-1.png"
+                  loading="lazy"
+                  role="img"
+                />
+              </div>
+              <div class="section-title4">
+                <b class="blog-title-heading">Webflow Development</b>
+                <div class="lorem-ipsum-dolor9">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="header-left">
+          <div class="section-title2">
+            <div class="hey-i-am">Hey, I am John</div>
+            <b class="i-create-product-container">
+              <span>I create </span>
+              <span class="product-design">product design </span>
+              <span>and brand experience</span>
+            </b>
+            <div class="lorem-ipsum-dolor12">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </div>
+          </div>
+          <div class="actions">
+            <a href="#contact" class="button1">
+              <div class="home">Get In Touch</div>
+            </a>
+          </div>
+        </div>
+        <img class="group-11-1" alt="Profilna slika" src="img/About Me.png" role="img" loading="lazy"/>
+      </div>
+      <div class="navbar">
+        <div class="container">
+          <img class="logo-icon" alt="Logo ikonica" src="img/Logo.png" role="img" loading="lazy"/>
+
+          <div class="column5"></div>
+          <div class="column6">
+            <a class="home" href="#home" aria-label="link" role="link" onclick="smoothScrollTo('home')">Home</a>
+            <a class="home" href="#portfolio" aria-label="link" role="link" onclick="smoothScrollTo('portfolio')">Portfolio</a>
+            <a class="home" href="#about" aria-label="link" role="link" onclick="smoothScrollTo('about')">About me</a>
+            <a class="home" href="#testimonials" aria-label="link" role="link" onclick="smoothScrollTo('testimonials')">Testimonials</a>
+          </div>          
+          <div class="column7"></div>
+            <a href="#contact" class="button2">
+              <div class="home">Contact Me</div>
+            </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
