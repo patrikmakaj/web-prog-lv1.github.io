@@ -1,7 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: 
-
+### LINK: web-prog-lv1.github.io
 <hr />
 
 ## Opis zadatka
